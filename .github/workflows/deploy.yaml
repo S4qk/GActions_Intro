@@ -7,8 +7,9 @@ on:
 jobs:
   deploy-1stClass: 
     runs-on: windows-latest
-    step:
+    steps:
+      uses: actions/checkout@v4
       run: echo "Pull de code"
-      run: echo "Correr migracsiones"
+      run: echo "Correr migraciones"
       run: echo "Generar binario"
       run: "Publicar versión"
