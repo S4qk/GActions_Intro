@@ -10,6 +10,6 @@ jobs:
     steps:
       uses: actions/checkout@v4
       - run: echo "Pull de code"
-      -run: echo "Correr migraciones"
-      -run: echo "Generar binario"
-      -run: "Publicar versión"
+      - run: echo "Correr migraciones"
+      - run: echo "Generar binario"
+      - run: "Publicar versión"
