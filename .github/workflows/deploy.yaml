@@ -1,0 +1,14 @@
+name: "hello everyone"
+
+on:
+  push:
+    branches: ["master"] 
+
+jobs:
+  deploy-1stClass: 
+    runs-on: windows-latest
+    steps:
+      run: echo "Pull de code"
+      run: echo "Correr migracsiones"
+      run: echo "Generar binario"
+      run: "Publicar versión"
