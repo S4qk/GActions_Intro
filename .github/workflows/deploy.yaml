@@ -2,7 +2,7 @@ name: "hello everyone"
 
 on:
   push:
-    branches: ["master"] 
+    branches: ["main"] 
 
 jobs:
   deploy-1stClass: 
@@ -13,4 +13,4 @@ jobs:
       - run: echo "Correr migraciones"
       - run: echo "Generar binario"
       - run: echo "Publicar versión"
-      - run: echo "Publicar versión en master" 
+      - run: echo "Publicar versión en main, no master" 
